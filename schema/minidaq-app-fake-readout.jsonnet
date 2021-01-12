@@ -144,7 +144,7 @@ local qspec_list = [
       for idx in std.range(0, NUMBER_OF_DATA_PRODUCERS-1)
     ]) { waitms: 1000 },
 
-  cmd.start(0) { waitms: 1000 },
+  cmd.start(42) { waitms: 1000 },
 
   cmd.stop() { waitms: 1000 },
 ]
